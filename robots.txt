@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Main pages
+Allow: /instagram-reel-downloader.html
+Allow: /about-us.html
+Allow: /privacy-policy.html
+Allow: /terms-conditions.html
+
+# Block download folders (user files)
+Disallow: /downloads/
+
+# Block installation scripts (server files)
+Disallow: /install.js
+Disallow: /server.js
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /requirements.txt
+
+# Sitemap location
+Sitemap: https://reeldownloader.click/sitemap.xml
+
+# Crawl delay (be respectful to search engines)
+Crawl-delay: 1
