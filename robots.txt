@@ -18,6 +18,3 @@ Disallow: /requirements.txt
 
 # Sitemap location
 Sitemap: https://www.reeldownloader.click/sitemap.xml
-
-# Crawl delay (be respectful to search engines)
-Crawl-delay: 1
